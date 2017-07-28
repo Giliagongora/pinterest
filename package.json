@@ -1,0 +1,34 @@
+{
+  "name": "printerest",
+  "version": "1.0.0",
+  "description": "proyecto final",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giliagongora/pinterest.git"
+  },
+  "author": "Gilia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giliagongora/pinterest/issues"
+  },
+  "homepage": "https://github.com/Giliagongora/pinterest#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.1"
+  }
+}
