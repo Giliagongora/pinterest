@@ -1,0 +1,99 @@
+header{
+	border-bottom: 1px solid #efefef;
+	width: 100%;
+	margin-top: 0;
+	display: inline-flex;
+
+	nav{
+		display: inline-flex;
+		
+		#icon__pinteres{
+			font-size: 300%;
+			color: #bc071a;
+			margin-left: 3%;
+			margin-right: 2%;
+		}
+		h3{
+			font-family: arial;
+			margin-right: 4%;
+		}
+		#icon__search{
+			font-size: 130%;
+			color: #b5b5b5;
+			height: 42%;
+			margin-top: 13px;
+			background-color: #efefef;
+			padding-left: 1%;
+			padding-right: 2%;
+			padding-top: 5px;
+			padding-bottom: 2px;
+		}
+
+		#input__text{
+			height: 51%;
+			width: 850px;
+			background-color: #efefef;
+			border: none;
+			border-right: 1px solid #d8d8d8;
+			margin-top: 1%;
+			font-family: arial;
+		
+		}
+		#boton__search{
+			margin-top: 1%;
+			height: 54%;
+			width: 15%;
+			border: none;
+			background-color: #efefef;
+			margin-right: 2%;
+		}
+		#icon__profile{
+			font-size: 250%;
+			margin-top: 7px;
+			margin-right: 1%;
+		}
+		h4{
+			font-family:arial;
+			margin: 1% 1% 0% 0%;
+			margin-right: 2%;
+		}
+		#icon__hambuerg{
+			font-size: 140%;
+			margin-top: 1%;
+			margin-right: 2%;
+		}
+		#icon__mensj{
+			font-size: 140%;
+			margin-top: 1%;
+			margin-right: 2%;	
+			background-color: #efefef;
+			border-radius: 40px ;
+			padding: 7px;
+			height: 40%;
+			width: 3%;
+			margin-top: 1px;		
+		}
+
+	}
+}
+.conten {
+	column-width: 320px;
+	column-gap: 15px;
+	width: 90%;
+	max-width: 1100px;
+	margin: 40px 20px;
+	}
+	.base{
+		background-color: white;
+		margin: 1% 1% 1% 1%;
+		padding: 0% 0% 4% 0%;
+	img{
+		/*width: 30%;
+		height: auto;
+		padding: 0% 0% 0% 0%;*/
+		margin: 1% 1% 1% 1%;
+		padding: 0% 0% 4% 0%;
+		border-radius: 10px;
+	}
+
+}
