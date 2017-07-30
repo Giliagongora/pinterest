@@ -8,7 +8,8 @@ var webserver = require('gulp-webserver');
 
 /* Concatenaremos nuestros archivos js para convertirlos en script.js que se guardara en una carpeta dist*/
 gulp.task('script', function(){
-	gulp.src(['node_modules/jquery/dist/jquery.js' /*, 'node_modules/materialize-css/dist/js/materialize.js' */, 'assets/js/*.js'])
+	//gulp.src(['node_modules/jquery/dist/jquery.js' /*, 'node_modules/materialize-css/dist/js/materialize.js' */, 'assets/js/*.js'])
+	gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/bootstrap/dist/js/bootstrap.js', 'node_modules/jquery/dist/jquery.js','assets/js/main.js', 'assets/js/masonry.js', 'assets/js/pluging.js','assets/js/json.js'])
 	.pipe(concat('script.js'))
 	//carta dist
 	.pipe(gulp.dest('dist/js/'));

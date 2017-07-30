@@ -1,3 +1,7 @@
+*{
+	font-family: 'Roboto', sans-serif;
+
+}
 header{
 	border-bottom: 1px solid #efefef;
 	width: 100%;
@@ -76,24 +80,91 @@ header{
 
 	}
 }
-.conten {
-	column-width: 320px;
-	column-gap: 15px;
-	width: 90%;
-	max-width: 1100px;
-	margin: 40px 20px;
-	}
-	.base{
-		background-color: white;
-		margin: 1% 1% 1% 1%;
-		padding: 0% 0% 4% 0%;
-	img{
-		/*width: 30%;
-		height: auto;
-		padding: 0% 0% 0% 0%;*/
-		margin: 1% 1% 1% 1%;
-		padding: 0% 0% 4% 0%;
-		border-radius: 10px;
-	}
+.insercion{
+	background-color: #fbfbfb;
 
 }
+.conten {
+	
+	padding-top: 6%;
+	margin-left: 9%;
+	width: 90%;	
+	display: flex;
+	flex-wrap: wrap;
+
+	
+	img{
+			width: 100%;
+			height: auto;
+			border-radius: 20px;
+
+			
+
+		}
+		a{
+			width: 200px;
+			margin-right: 8%;
+			background-color: white;
+			padding-bottom: 0%;
+    		margin-bottom: 2%;
+    		border-radius: 20px;
+    		box-shadow: 5px 10px 5px #888888;
+
+
+		}
+		h2{
+			
+			display: flex;
+			justify-content: center;
+			width: 78%;
+			margin: 0;
+			font-size: 80%;
+			font-weight: 700;
+			color: black;
+			padding-left: 5%;
+    		padding-right: 5%;
+
+		}
+		h3{
+			font-family: arial;
+			display: flex;
+			width: 78%;
+			margin: 0;
+			font-size: 70%;		
+			text-align: justify;
+			font-weight: 300;
+			padding-left: 5%;
+    		padding-right: 5%;	
+		}
+		h5{
+			font-family: arial;
+			display: flex;
+			text-align: left;
+			width: 78%;
+			margin: 0;
+			font-size: 70%;
+			font-weight: 300;
+			padding-left: 5%;
+    		padding-right: 5%;				
+		}	
+		p{
+			display: flex;
+			width: 82%;
+			text-align: left;
+			margin-top: 0;
+			margin-bottom: 5%;
+			font-size: 70%;
+			font-weight: 700;
+			padding-left: 5%;
+    		padding-right: 5%;
+		}
+	}
+	.base{		
+		display: flex;
+		background-color: white;
+		padding-bottom: 10%;
+		border-radius: 10px;	
+		}
+
+
+

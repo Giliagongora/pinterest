@@ -1,18 +1,42 @@
 
 $(document).ready(function(){
  	
- 	$.each(pint,function(i, item){
- 		var element = ("<a>" + "<img src=img/" + pint[i].image_url + "> <br>" + pint[i].title + "</a>" );
- 		//var elementos = $("<div>" + pint[1].title "</div>")
- 		//	document.write("<br>"+i+" - "+miJSON[i].valor+" - "+miJSON[i].color+" - "+miJSON[i].caracteristica.tipo+" - "+miJSON[i].caracteristica.ref);
- 		// var pokeimg = $("<a type='button'  data-toggle='modal' data-target='#myModal'> <img src=https://pokeapi.co/media/img/" + i + ".png id=" + i + "> </a>");
- 		$("div.base").append(element);
- 	})
+	$.each(pint, function(i, item){
+		var element = ("<a type='button' data-toggle='modal' data-target='#myModal'>" + "<img src=img/" + pint[i].image_url + ">" + "<h2>"
+			+pint[i].title + "</h2><h3>" + pint[i].description +"</h3><h5>"+ pint[i].user +"</h5><p>"+ pint[i].hashtag +"</p></a>");
+		$("div.conten").append(element);
+	})
 
+//type='button'  data-toggle='modal' data-target='#myModal'
 
-})
+/*	//solucionar tema con las imagenes
+	
+	var container = document.querySelector("conten");
+	var msnry = new Masonry(container,{
+		itemSelector: ".base"
+	});
+	
+	var $conten = $('.conten'); 
+            $conten.imagesLoaded( function() {
+            $conten.masonry();
+        });
+*/
+
+});
 
 /*
+
+
+
+
+
+ 	$.each(pint,function(i, item){
+ 		var element = ("<a>" + "<img src=img/" + pint[i].image_url + ">" + "<h3>" +pint[i].title + "</h3></a>");
+
+ 		$("div.base").append(element);
+ 	});
+
+
 document.write("<h2 style='color:green;' >Busqueda de usuarios</h2>");
 res.forEach(function(el){
    document.write( 
