@@ -84,6 +84,21 @@ header{
 	background-color: #fbfbfb;
 
 }
+.btn{
+	background-color: #fbfbfb;
+	padding-top: 2%;
+	padding-left: 10%;
+
+	.btn__{
+		background-color: #ffc4c4;
+		border: none;
+		border-radius: 10px;
+		padding: 1% 2%;
+		box-shadow: 5px 10px 5px #f1f1f1;
+		color: white;
+	}
+
+}
 .conten {
 	
 	padding-top: 6%;
@@ -108,7 +123,7 @@ header{
 			padding-bottom: 0%;
     		margin-bottom: 2%;
     		border-radius: 20px;
-    		box-shadow: 5px 10px 5px #888888;
+    		box-shadow: 5px 10px 5px #f1f1f1;
 
 
 		}
@@ -123,6 +138,7 @@ header{
 			color: black;
 			padding-left: 5%;
     		padding-right: 5%;
+    		align-items: stretch;
 
 		}
 		h3{
@@ -134,7 +150,8 @@ header{
 			text-align: justify;
 			font-weight: 300;
 			padding-left: 5%;
-    		padding-right: 5%;	
+    		padding-right: 5%;
+    		align-items: stretch;	
 		}
 		h5{
 			font-family: arial;
@@ -145,7 +162,8 @@ header{
 			font-size: 70%;
 			font-weight: 300;
 			padding-left: 5%;
-    		padding-right: 5%;				
+    		padding-right: 5%;	
+    		align-items: stretch;			
 		}	
 		p{
 			display: flex;
@@ -157,6 +175,7 @@ header{
 			font-weight: 700;
 			padding-left: 5%;
     		padding-right: 5%;
+    		align-items: stretch;
 		}
 	}
 	.base{		
