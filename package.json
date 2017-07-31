@@ -1,24 +1,13 @@
 {
-  "name": "printerest",
+  "name": "gulpie",
   "version": "1.0.0",
-  "description": "proyecto final",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "Ejercicio guiado",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Giliagongora/pinterest.git"
-  },
   "author": "Gilia",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Giliagongora/pinterest/issues"
-  },
-  "homepage": "https://github.com/Giliagongora/pinterest#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
