@@ -2,15 +2,15 @@
 $(document).ready(function(){
  	
 	$.each(pint, function(i, item){
-		var element = ("<a type='button' >" + "<img src=img/" + pint[i].image_url + ">" + "<h2>"
+		var element = ("<a class='modal'  type='button' >" + "<img src=img/" + pint[i].image_url + ">" + "<h2>"
 			+pint[i].title + "</h2><h3>" + pint[i].description +"</h3><h5>"+ pint[i].user +"</h5><p>"+ pint[i].hashtag +"</p></a>");
 		$("div.conten").append(element);
 
-		modal();
+//		modal();
 	})
 
-
-var modal = 
+//var contenido = element;
+//var modal = $("a").append($contenido)
 
 });
 
