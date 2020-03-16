@@ -100,7 +100,7 @@ header {
     margin: 2px; }
 
 .conten {
-  padding-top: 6%;
+  padding-top: 0;
   margin: auto;
   width: 100%;
   display: flex;
