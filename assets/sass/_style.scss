@@ -17,89 +17,79 @@
         }
     }
 }
+
 header{
 	border-bottom: 1px solid #efefef;
 	width: 100%;
 	margin-top: 0;
 	display: inline-flex;
-
 	nav{
 		display: inline-flex;
 		width: 100%;
-		#icon__pinteres{
-			font-size: 300%;
-			color: #bc071a;
-			margin:auto;
-            padding: 0 15px;
-		}
-		h3{
-			font-family: arial;
-			margin-right: auto;
-            padding-right: 15px;
-		}
-		#icon__search{
-			font-size: 130%;
-			color: #b5b5b5;
-			height: auto;
-			background-color: #efefef;
-            padding: 5px;
-            position: relative;
-            width: 100%;
-            margin: auto;
-		}
-
-		#input__text{
-			height: auto;
-			width: auto;
-			background-color: #efefef;
-			border: none;
-			margin: auto;
-			font-family: arial;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 30px;
-            min-width: 150px;
-		
-		}
-		#boton__search{
-			height: auto;
-			border: none;
-			background-color: #efefef;
-			margin:auto;
-            position: absolute;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            padding: 0 10px;
-		}
-		#icon__profile{
-			font-size: 250%;
-            margin-top: 7px;
-            margin: auto;
-            padding: 0 5px;
-		}
-		h4{
-			font-family:arial;
-			margin: auto;
-            padding: 0;
-		}
-		#icon__hambuerg{
-			font-size: 140%;
-			margin:auto;
-            padding: 0 10px;
-		}
-		#icon__mensj{
-			font-size: 140%;	
-			background-color: #efefef;
-			border-radius: 40px ;
-			height: auto;
-			width: auto;
-            margin: auto;
-            padding: 10px;
-        }
-
-	}
+    }#icon__pinteres{
+        font-size: 300%;
+        color: #bc071a;
+        margin:auto;
+        padding: 0 15px;
+    }h3{
+        font-family: arial;
+        margin-right: auto;
+        padding-right: 15px;
+    }#icon__search{
+        font-size: 130%;
+        color: #b5b5b5;
+        height: auto;
+        background-color: #efefef;
+        padding: 5px;
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }#input__text{
+        height: auto;
+        width: auto;
+        background-color: #efefef;
+        border: none;
+        margin: auto;
+        font-family: arial;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 30px;
+        min-width: 150px;
+	}#boton__search{
+        height: auto;
+        border: 1px solid #9d9d9d29;
+        background-color: #9d9d9d29;
+        margin:auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 0 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }#icon__profile{
+        font-size: 250%;
+        margin-top: 7px;
+        margin: auto;
+        padding: 0 5px;
+    }h4{
+        font-family:arial;
+        margin: auto;
+        padding: 0;
+    }#icon__hambuerg{
+        font-size: 140%;
+        margin:auto;
+        padding: 0 10px;
+    }#icon__mensj{
+        font-size: 140%;	
+        background-color: #efefef;
+        border-radius: 40px ;
+        height: auto;
+        width: auto;
+        margin: auto;
+        padding: 10px;
+    }   
 }
 .insercion{
 	background-color: #fbfbfb;
@@ -110,97 +100,89 @@ header{
 	margin: auto;
 	padding: 2% 5%;
     text-align: center;
-	.btn__{
-		background-color: #ffc4c4;
-		border: none;
-		border-radius: 5px;
-		padding: 5px 5px;
-		box-shadow: 5px 10px 5px #f1f1f1;
-		color: white;
+    .btn__{
+        background-color: #ffc4c4;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 5px;
+        box-shadow: 5px 5px 5px #f1f1f1;
+        color: white;
         margin: 2px;
-	}
-
+        cursor: pointer;
+    }.btn__:hover{
+        background-color: #ffa9a9;
+        box-shadow: 5px 5px 5px #d7d7d7;
+    }
 }
-.conten {
-	
+.conten {	
 	padding-top: 6%;
 	margin:auto;
 	width: 100%;	
 	display: flex;
 	flex-wrap: wrap;
-    justify-content: center;
-
-	
+    justify-content: center;	
 	img{
-			width: 100%;
-			height: auto;
-			border-radius: 20px;
-
-			
-
-		}
-		a{
-			width: 200px;
-			margin: 1%;
-			background-color: white;
-			padding-bottom: 0%;
-    		margin-bottom: 2%;
-    		border-radius: 20px;
-    		box-shadow: 5px 10px 5px #f1f1f1;
-
-
-		}
-		h2{
-			
-			display: flex;
-			justify-content: center;
-			width: 78%;
-			margin: 0;
-			font-size: 80%;
-			font-weight: 700;
-			color: black;
-			padding-left: 5%;
-    		padding-right: 5%;
-    		align-items: stretch;
-
-		}
-		h3{
-			font-family: arial;
-			display: flex;
-			width: 78%;
-			margin: 0;
-			font-size: 70%;		
-			text-align: justify;
-			font-weight: 300;
-			padding-left: 5%;
-    		padding-right: 5%;
-    		align-items: stretch;	
-		}
-		h5{
-			font-family: arial;
-			display: flex;
-			text-align: left;
-			width: 78%;
-			margin: 0;
-			font-size: 70%;
-			font-weight: 300;
-			padding-left: 5%;
-    		padding-right: 5%;	
-    		align-items: stretch;			
-		}	
-		p{
-			display: flex;
-			width: 82%;
-			text-align: left;
-			margin-top: 0;
-			margin-bottom: 5%;
-			font-size: 70%;
-			font-weight: 700;
-			padding-left: 5%;
-    		padding-right: 5%;
-    		align-items: stretch;
-		}
-	}
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }a{
+        width: 200px;
+        margin: 1%;
+        background-color: white;
+        padding-bottom: 0%;
+        margin-bottom: 2%;
+        border-radius: 20px;
+        box-shadow: 5px 10px 5px #f1f1f1;
+        cursor: pointer;
+    }a.modal:hover{
+        background-color: #e8fdff73;
+        box-shadow: 5px 10px 5px #65797b42;
+    }h2{			
+        display: flex;
+        justify-content: center;
+        width: 78%;
+        margin: 0;
+        font-size: 80%;
+        font-weight: 700;
+        color: black;
+        padding-left: 5%;
+        padding-right: 5%;
+        align-items: stretch;
+    }h3{
+        font-family: arial;
+        display: flex;
+        width: 78%;
+        margin: 0;
+        font-size: 70%;		
+        text-align: justify;
+        font-weight: 300;
+        padding-left: 5%;
+        padding-right: 5%;
+        align-items: stretch;	
+    }h5{
+        font-family: arial;
+        display: flex;
+        text-align: left;
+        width: 78%;
+        margin: 0;
+        font-size: 70%;
+        font-weight: 300;
+        padding-left: 5%;
+        padding-right: 5%;	
+        align-items: stretch;			
+    }p{
+        display: flex;
+        width: 82%;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 5%;
+        font-size: 70%;
+        font-weight: 700;
+        padding-left: 5%;
+        padding-right: 5%;
+        align-items: stretch;
+    }
+}
 	.base{		
 		display: flex;
 		background-color: white;
